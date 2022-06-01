@@ -1,0 +1,10 @@
+DROP DATABASE IF EXISTS task_db;
+CREATE DATABASE task_db;
+
+USE task_db;
+
+CREATE TABLE task (
+id INT PRIMARY KEY AUTO_INCREMENT,
+event_date DATE NOT NULL,
+information VARCHAR(1000) NOT NULL
+);
