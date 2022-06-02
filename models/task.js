@@ -25,3 +25,5 @@ Task.init(
         modelName: 'task',
     }
 );
+
+module.exports = Task

@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/cmoney574/Planner#readme",
   "dependencies": {
-    "mysql2": "^2.3.3"
+    "express": "^4.18.1",
+    "mysql2": "^2.3.3",
+    "sequelize": "^6.20.1"
   }
 }
